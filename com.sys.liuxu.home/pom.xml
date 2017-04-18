@@ -13,7 +13,7 @@
     
     <module>com.sys.liuxu.service</module>
 
-    <module>com.sys.liuxu.mapping</module>
+    
     <module>com.sys.liuxu.dao.base</module>
     <module>com.sys.liuxu.iservice</module>
   </modules>
