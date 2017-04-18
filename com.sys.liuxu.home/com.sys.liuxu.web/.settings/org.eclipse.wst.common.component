@@ -14,10 +14,10 @@
         <dependent-module archiveName="com.sys.liuxu.service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.sys.liuxu.service/com.sys.liuxu.service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="com.sys.liuxu.dao-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.sys.liuxu.dao/com.sys.liuxu.dao">
+        <dependent-module archiveName="com.sys.liuxu.iservice-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.sys.liuxu.iservice/com.sys.liuxu.iservice">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="com.sys.liuxu.iservice-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.sys.liuxu.iservice/com.sys.liuxu.iservice">
+        <dependent-module archiveName="com.sys.liuxu.dao-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.sys.liuxu.dao/com.sys.liuxu.dao">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="com.sys.liuxu.web"/>

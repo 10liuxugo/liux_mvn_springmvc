@@ -21,20 +21,20 @@ import com.sys.liuxu.entity.UserInfoVo;
 @Controller
 public class UserController {
 
-	private static Log runLog = LogFactory.getLog("runLogger");// ������־
+	/*private static Log runLog = LogFactory.getLog("runLogger");// ������־
 	private static Log interfaceLog = LogFactory.getLog("interfaceLogger");// �ӿ���־
 
 	// slf4j
 	private Logger logtest = LoggerFactory.getLogger(UserController.class);
-
+*/
 	@Autowired
 	private IUserInfoService userInfoService;
 
 	@RequestMapping("/index")
 	public String login(ModelMap modelMap) {
 
-		logtest.info("slf4j gogogogo");
-		logtest.error("slf4j errorslf4j errorslf4j errorslf4j errorslf4j error");
+		//logtest.info("slf4j gogogogo");
+		//logtest.error("slf4j errorslf4j errorslf4j errorslf4j errorslf4j error");
 
 		UserInfoVo u = new UserInfoVo();
 		u = userInfoService.login(u);

@@ -35,6 +35,11 @@
     	<artifactId>com.sys.liuxu.service</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>
+    <dependency>
+    	<groupId>com.sys.liuxu.dao</groupId>
+    	<artifactId>com.sys.liuxu.dao</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>com.sys.liuxu.web</finalName>

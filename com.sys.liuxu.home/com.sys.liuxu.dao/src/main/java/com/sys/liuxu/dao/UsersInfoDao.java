@@ -71,7 +71,7 @@ public class UsersInfoDao {
 	public UserInfoVo selectByPrimaryKey(String id) {
 		// TODO Auto-generated method stub
 		
-		return baseDao.findOne("com.liux.sys.dao.UserMapper.selectByPrimaryKey", id);
+		return   baseDao.findOne("com.sys.liuxu.dao.UserMapper.selectByPrimaryKey", id);
 
 		
 	}

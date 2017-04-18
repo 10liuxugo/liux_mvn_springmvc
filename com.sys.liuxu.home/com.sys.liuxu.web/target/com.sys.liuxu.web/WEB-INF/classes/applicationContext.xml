@@ -51,7 +51,10 @@
         <property name="basePackage" value="com.sys.liuxu" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
+
+    <bean id ="baseDao" class="org.com.sys.liuxu.dao.base.BaseDao">
     
+    </bean> 
     
 	
 
