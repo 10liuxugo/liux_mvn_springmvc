@@ -8,5 +8,6 @@
 </head>
 <body>${msg}
 <h1>eeee</h1>
+<h2 style="color: red;">${dobbomsg}</h2>
 </body>
 </html>
